@@ -13,7 +13,7 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(cors())
 
-mongoose.connect("mongodb+srv://saraswatipanda:saraswatipanda@cluster0.ylqrokp.mongodb.net/", {
+mongoose.connect("mongodb+srv://dibyazynox:dibyazynox@cluster0.slbrfjo.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log('MongoDB connected'))
